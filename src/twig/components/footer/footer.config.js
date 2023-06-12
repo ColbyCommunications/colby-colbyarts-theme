@@ -3,49 +3,58 @@ module.exports = {
   status: "wip",
   context: {
     address: {
-      text: 'Colby College<br />Mayflower Hill Drive<br />Waterville, ME 04901',
-      url: 'https://goo.gl/maps/zcWYwjKYgYRgyvfh6'
+      text: 'Colby Arts is dedicated to building safe, inspiring spaces for students, faculty, and the greater Waterville community to express themselves through various mediums of art. Explore our collective shared spaces to find how you can start creating today.'
     },
     phone: '207-859-4000',
-    main: [
+    centers: [
       {
-        title: 'Colby Impact',
+        title: 'Center for Arts and Humanities',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Ways to Give',
+        title: 'Gordon Center for Creative and Performing Arts',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Alumni',
+        title: 'Lunder Institute for American Art',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Volunteer',
+        title: 'Colby College Museum of Art',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Families',
+        title: 'Greene Block + Studios',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Clubs',
+        title: 'Lyons Arts Lab',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'News',
+        title: 'Paul J. Schupf Art Center',
+        url: 'https://welcometruth.com/',
+      },
+    ],
+    programs: [
+      {
+        title: 'Art',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Alumni Council',
+        title: 'Cinema Studios',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Events',
+        title: 'Creative Writing',
         url: 'https://welcometruth.com/',
       },
       {
-        title: 'Alumni Awards',
+        title: 'Music',
+        url: 'https://welcometruth.com/',
+      },
+      {
+        title: 'Performance, Theater, and Dance',
         url: 'https://welcometruth.com/',
       },
     ],
@@ -103,6 +112,5 @@ module.exports = {
         icon: 'youtube',
       },
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas dolor elit, nec scelerisque tellus porttitor in. Quisque molestie condimentum lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas dolor elit, nec scelerisque tellus porttitor in. Quisque molestie condimentum lobortis',
   },
 }

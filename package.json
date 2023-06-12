@@ -10,6 +10,7 @@
     "author": "Gregory Spraggins",
     "license": "ISC",
     "scripts": {
+        "tailwind:build": "tailwind build style.css -o dist/styles/tailwind.css",
         "fractal": "fractal start --sync",
         "fractal:build": "fractal build",
         "scripts:build": "webpack --config ./config/webpack/webpack.prod.js",

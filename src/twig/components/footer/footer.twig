@@ -8,23 +8,38 @@
 
 <footer class="footer bg-indigo py-14 space-y-12 md:space-y-14">
   <div class="footer__inner md:grid md:grid-cols-12 gap-x-10 max-w-screen-2xl w-full px-5 my-0 mx-auto">
-    <div class="footer__left md:col-span-6">
+    <div class="footer__left md:col-span-5">
       <a class="block" href="{{ address.url }}">
         {% include logo with {
-          class: 'fill-white w-[90px] md:w-[100px]',
+          class: 'fill-white w-[150px]',
           textClass: 'text-white'
         } %}
       </a>
       <p class="font-body font-normal text-14 leading-130 text-gray-500 mt-8 md:mt-7">{{ address.text }}</p>
     </div>
-    <div class="footer__right md:col-start-8 md:col-span-5 mt-6 md:mt-0">
-      <ul class="footer__links grid grid-cols-2 gap-4">
-        {% for item in main %}
-          <li class="col-span-1 font-body font-normal text-18 leading-120">
-            <a class="text-gray-200 hover:text-white hover:underline transition-all duration-200 ease-in-out" href="{{ item.url }}">{{ item.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="footer__right md:col-start-7 md:col-span-6 mt-12 md:mt-0">
+      <div class="grid md:grid-cols-2 gap-12 md:gap-4">
+        <div class="col-span-1">
+          <h2 class="font-body font-bold text-18 leading-120 text-gray-200">Centers and Institutions</h2>
+          <ul class="footer__links grid gap-2 mt-5">
+            {% for item in centers %}
+              <li class="col-span-1 font-body font-normal text-14 leading-120">
+                <a class="text-gray-200 hover:text-white hover:underline transition-all duration-200 ease-in-out" href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-span-1">
+          <h2 class="font-body font-bold text-18 leading-120 text-gray-200">Academic Programs</h2>
+          <ul class="footer__links grid gap-2 mt-5">
+            {% for item in programs %}
+              <li class="col-span-1 font-body font-normal text-14 leading-120">
+                <a class="text-gray-200 hover:text-white hover:underline transition-all duration-200 ease-in-out" href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="col-span-12 pb-8 md:pb-12 border-b border-gray-800"></div>
   </div>

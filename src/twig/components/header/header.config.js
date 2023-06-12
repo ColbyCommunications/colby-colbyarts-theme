@@ -5,41 +5,29 @@ module.exports = {
     utility: [
       {
         url: 'https://welcometruth.com/',
-        title: 'Update My Info',
-      },
-      {
-        url: 'https://welcometruth.com/',
-        title: 'Homecoming',
-      },
-      {
-        url: 'https://welcometruth.com/',
-        title: 'Class Reunion',
-      },
-      {
-        url: 'https://welcometruth.com/',
         title: 'Colby.edu',
+      },
+      {
+        url: 'https://welcometruth.com/',
+        title: 'Support Colby Arts',
       },
     ],
     main: [
       {
         url: 'https://welcometruth.com/',
-        title: 'Colby Impact',
+        title: 'About',
       },
       {
         url: 'https://welcometruth.com/',
-        title: 'Alumni and Families',
+        title: 'Academics',
       },
       {
         url: 'https://welcometruth.com/',
-        title: 'News',
+        title: 'Spaces and Institutions',
       },
       {
         url: 'https://welcometruth.com/',
         title: 'Events',
-      },
-      {
-        url: 'https://welcometruth.com/',
-        title: 'Ways to Give',
       },
     ],
   }
