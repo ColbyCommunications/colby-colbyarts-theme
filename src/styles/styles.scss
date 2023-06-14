@@ -21,7 +21,7 @@
 /* Page w/ sidebar content styles */
 .wysiwyg {
     h2,
-    h3,
+    > h3,
     h4,
     h5,
     h6 {
@@ -35,7 +35,7 @@
         @apply -tracking-3;
     }
 
-    h3 {
+    > h3 {
         @apply text-20;
         @apply leading-110;
         @apply -tracking-3;
