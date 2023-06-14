@@ -6,6 +6,20 @@
   {% set logo = 'logo.twig' %}
 {% endif %}
 
+{% set centers = fn('wp_get_nav_menu_items', 'Centers and Institutions Menu')|map(i => {
+  link: {
+    title: i.title,
+    url: i.url,
+  }
+}) %}
+
+{% set programs = fn('wp_get_nav_menu_items', 'Academic Programs Menu')|map(i => {
+  link: {
+    title: i.title,
+    url: i.url,
+  }
+}) %}
+
 <footer class="footer bg-indigo py-14 space-y-12 md:space-y-14">
   <div class="footer__inner md:grid md:grid-cols-12 gap-x-10 max-w-screen-2xl w-full px-5 my-0 mx-auto">
     <div class="footer__left md:col-span-5">
