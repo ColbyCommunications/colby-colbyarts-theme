@@ -114,5 +114,6 @@ function arts_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'arts_theme_scripts', 100 );
 
+add_filter( 'auto_core_update_send_email', '__return_false' );
 
 
