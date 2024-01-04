@@ -107,6 +107,7 @@ new ArtsSite();
 function arts_theme_scripts() {
 	// remove parent
 	wp_dequeue_style( 'hvh' );
+	wp_dequeue_script( 'main' );
 
 	// child
 	wp_enqueue_style( 'child_css', get_stylesheet_directory_uri() . '/dist/styles/scripts.css', array(), date( 'H:i:s' ) );
