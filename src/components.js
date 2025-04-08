@@ -1,3 +1,5 @@
-// import Header from './twig/components/header/Header.vue';
+import OverlayHero from './twig/components/overlay-hero/OverlayHero.vue';
 
-export default {};
+export default {
+    OverlayHero,
+};
